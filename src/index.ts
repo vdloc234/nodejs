@@ -1,5 +1,9 @@
+'use strict'
 /**
- * "dsa"
+ * return square of given number
+ * @param num
  * @returns
  */
-const generateRandomNumber = () => Math.random() * 1000
+export const myFunc = (num: number) => {
+    return num * num
+}
